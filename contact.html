@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tech Solutions Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Tech</span> Solutions</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="personal-detail.html">Personal-detail</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">products</a></li>
+                    <li><a href="portfolio.html">gallery</a></li>
+                    <li class="current"><a href="contact.html">get in touch</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main-content" class="container">
+        <h1>Get in Touch</h1>
+        <form class="contact-form" action="submit_form.php" method="POST" >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"required >
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"required ></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <h2>Our Contact Details</h2>
+            <p><strong>Address:</strong> Mekelle arid taxi,17</p>
+            <p><strong>Phone:</strong> (251) 974572853</p>
+            <p><strong>Email:</strong> gerewani2853@gmail.com</p>
+            <p><strong>working Hours:</strong> Mon - Fri: :00 AM - 5:00 PM</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Tech Solutions Agency &copy; 2023</p>
+        <p>My name is Gebretnsae Weldegewergs</p>
+    </footer>
+</body>
+</html>
